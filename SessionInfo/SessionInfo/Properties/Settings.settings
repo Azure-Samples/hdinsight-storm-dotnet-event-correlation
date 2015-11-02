@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SessionInfo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HBaseClusterUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://HBASECLUSTERNAME.azurehdinsight.net/</Value>
+    </Setting>
+    <Setting Name="HBaseClusterUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">The cluster admin name</Value>
+    </Setting>
+    <Setting Name="HBaseClusterPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">The cluster admin password</Value>
+    </Setting>
+    <Setting Name="HBaseTableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SessionInfo</Value>
+    </Setting>
+    <Setting Name="HBaseTableColumnFamily" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cf</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
