@@ -1,3 +1,9 @@
+---
+services: hdinsight
+platforms: dotnet
+author: blackmist
+---
+
 # hdinsight-storm-dotnet-event-correlation
 
 This example demonstrates how to use Apache Storm and a persistent data store (Apache HBase in this case,) to correlate pieces of data that arrive at different times. This example was written and tested using HDInsight on Microsoft Azure.
