@@ -4,7 +4,7 @@ platforms: dotnet
 author: blackmist
 ---
 
-# hdinsight-storm-dotnet-event-correlation
+# Event correlation with Apache Storm and HBase
 
 This example demonstrates how to use Apache Storm and a persistent data store (Apache HBase in this case,) to correlate pieces of data that arrive at different times. This example was written and tested using HDInsight on Microsoft Azure.
 
@@ -88,3 +88,7 @@ The Storm topology uses the following components:
 For more information on this example, see [Correlate events with Storm on HDInsight](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-storm-correlation-topology/)
 
 For other examples for Storm on HDInsight, see [Example topologies for Storm on HDInsight](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-storm-example-topology/)
+
+## Project code of conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
