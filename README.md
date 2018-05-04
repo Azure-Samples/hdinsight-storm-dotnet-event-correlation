@@ -6,6 +6,8 @@ author: blackmist
 
 # Event correlation with Apache Storm and HBase
 
+__WARNING__: This example was created and tested with Windows-based HDInsight clusters. Starting with HDInsight version 3.4, Linux is the only operating system used for HDInsight. This example __will not work on HDInsight 3.4 or higher__ due to incompatibilities between the .NET components that it relies on and Mono (used to run .NET on Linux clusters).
+
 This example demonstrates how to use Apache Storm and a persistent data store (Apache HBase in this case,) to correlate pieces of data that arrive at different times. This example was written and tested using HDInsight on Microsoft Azure.
 
 This example is based on tracking session state. When a session begins, a START event is sent through the topology. This event, the time it was sent, and the Session ID are stored in HBase.
